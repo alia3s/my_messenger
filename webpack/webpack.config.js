@@ -25,6 +25,9 @@ module.exports = {
     filename: '[name].bundle.js',
     path: resolve(__dirname, '../dist'),
   },
+  devServer: {
+    https: true,
+  },
   plugins: [
     new HtmlWebPackPlugin({
         template: './index.html'

@@ -4,8 +4,8 @@
   "description": "",
   "main": "./dist/bundle.js",
   "scripts": {
-    "start": "npx webpack serve --config ./webpack/webpack.config.js --mode development --https",
-    "build": "npx webpack --config ./webpack/webpack.config.js --mode development"
+    "start": "npx webpack serve --config ./webpack/webpack.config.js --mode development",
+    "build": "npx webpack --config ./webpack/webpack.config.js --mode production"
   },
   "author": "Vladimir Buranov",
   "license": "ISC",
