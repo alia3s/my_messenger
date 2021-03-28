@@ -1,10 +1,11 @@
 import React from 'react'
+import VideoScreen from '#/components/videoScreen'
 
 const App = () => {
   return (
-    <div>
-      {'Hello'}
-    </div>
+    <>
+      <VideoScreen />
+    </>
   )
 }
 
